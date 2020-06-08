@@ -50,6 +50,7 @@ class RequestNasa
     puts new_hash
   end
 end
+
 api_key = 'pGocQGbUuPUQ7mi8HzvKs2PLTCLrUF8Cd0iYschR' 
 url = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=10'
 obj = RequestNasa.new(url, api_key)
